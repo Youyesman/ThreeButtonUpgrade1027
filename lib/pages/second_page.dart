@@ -11,11 +11,14 @@ class SecondPage extends StatefulWidget {
 }
 
 class _SecondPageState extends State<SecondPage> {
+
   double sum = double.parse('${Get.arguments}') * 70 * 1150 + 30000 + 40000;
 
   double ofc = double.parse('${Get.arguments}') * 70 * 1150;
   double hdc = 30000;
   double doc = 40000;
+
+
 
   @override
   Widget build(BuildContext context) {
