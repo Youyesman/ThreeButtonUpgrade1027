@@ -9,6 +9,7 @@ void main() {
   runApp(MyApp());
 }
 
+// 1027 sum format 변경
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
